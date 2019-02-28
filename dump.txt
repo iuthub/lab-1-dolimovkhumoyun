@@ -1,0 +1,38 @@
+== Info: Could not resolve host: Mozilla
+== Info: Closing connection 0
+== Info: Could not resolve host: www.afisha.uz'
+== Info: Closing connection 1
+== Info:   Trying 81.95.225.147...
+== Info: TCP_NODELAY set
+== Info: Connected to gazeta.uz (81.95.225.147) port 80 (#2)
+=> Send header, 73 bytes (0x49)
+0000: GET / HTTP/1.1
+0010: Host: gazeta.uz
+0021: User-Agent: curl/7.63.0
+003a: Accept: */*
+0047: 
+<= Recv header, 32 bytes (0x20)
+0000: HTTP/1.1 302 Moved Temporarily
+<= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 15 Feb 2019 10:15:18 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 138
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 33 bytes (0x21)
+0000: Location: http://www.gazeta.uz/
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 138 bytes (0x8a)
+0000: <html>
+0008: <head><title>302 Found</title></head>
+002f: <body>
+0037: <center><h1>302 Found</h1></center>
+005c: <hr><center>nginx</center>
+0078: </body>
+0081: </html>
+== Info: Connection #2 to host gazeta.uz left intact
