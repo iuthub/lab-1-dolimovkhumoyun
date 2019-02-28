@@ -1,0 +1,40 @@
+== Info:   Trying 34.231.75.48...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (34.231.75.48) port 80 (#0)
+=> Send header, 111 bytes (0x6f)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: curl/7.63.0
+003f: Accept: */*
+004c: Referer: http://www.google.com/
+006d: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 15 Feb 2019 10:19:38 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 353
+<= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+<= Recv header, 8 bytes (0x8)
+0000: Age: 0
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 353 bytes (0x161)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Cache
+0040: -Control": "max-stale=0", .    "Connection": "close", .    "Host
+0080: ": "httpbin.org", .    "If-Modified-Since": "Fri, 15 Feb 2019 10
+00c0: :12:46 GMT", .    "Referer": "http://www.google.com/", .    "Use
+0100: r-Agent": "curl/7.63.0".  }, .  "origin": "87.237.236.162", .  "
+0140: url": "http://httpbin.org/get".}.
+== Info: Connection #0 to host httpbin.org left intact
