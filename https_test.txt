@@ -1,0 +1,155 @@
+== Info:   Trying 34.206.253.53...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (34.206.253.53) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:\curl-7.63.0-win64-mingw\bin\curl-ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ......n.w.cVn....l#J.q0.>."&/.......+. ..(.eG|..Ti.{.....)...\<.
+0040: .y...(r.>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........httpbin.org........................3t.......
+00c0: ..h2.http/1.1.........1.....0...................................
+0100: ..............+............-.....3.&.$... .Z#..Dk(..".~Y. M\....
+0140:  .e.............................................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....f
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 102 bytes (0x66)
+0000: ...b..\f..vy...R..M..Dn.k..Wb[.......L ...\.......e...*......c'.
+0040: .7...a../..........http/1.1...........
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 2566 bytes (0xa06)
+0000: .........c0.._0..G..........B......x..1.1.i0...*.H........0J1.0.
+0040: ..U....US1.0...U....Let's Encrypt1#0!..U....Let's Encrypt Author
+0080: ity X30...190108231603Z..190408231603Z0.1.0...U....httpbin.org0.
+00c0: ."0...*.H.............0.........I....qR.Y.M>....'2F..wD9AtM...e.
+0100: .f.d.B.Y..K......L.."=].,...D_.R...:..G3....$....P....P-.Si..3&.
+0140: gXj3M....9....e.z...7.-.].T..............P....}.8.....LQ"b.|~{..
+0180: ....M.$.....L.....!..V..Y.......%WL..fa.............fo2.........
+01c0: .F.r*."......{R?--....Fon_.O.(.........q0..m0...U...........0...
+0200: U.%..0...+.........+.......0...U.......0.0...U......6P8....o.61"
+0240: ..@...<h0...U.#..0....Jjc.}....9..Ee.....0o..+........c0a0...+..
+0280: ...0.."http://ocsp.int-x3.letsencrypt.org0/..+.....0..#http://ce
+02c0: rt.int-x3.letsencrypt.org/0'..U... 0...httpbin.org..www.httpbin.
+0300: org0L..U. .E0C0...g.....07..+..........0(0&..+.........http://cp
+0340: s.letsencrypt.org0.....+.....y............v..iK.&..@.....;..>..t
+0380: ....(..........h/.Qr.....G0E.!.....*......Q...._@.......!7#.....
+03c0:  \.-4.w.ih.....6....*.@}.5...H..U.v.c....;.,..r.'Wk3..aw..u.8..h
+0400: TK.....h/.Qt.....G0E. a.._@.1......L.K.........k.p..|..!....m.+9
+0440: 5.#.Cd.......M..I.^enI_.N0...*.H..............(...g....@.{....CV
+0480: ..wP\...P...........a.k.Z.(...F.>..-.FL$.....p.\cC...?._.{Y.1...
+04c0: ..`.Q../0Rwc..;.s....O....&%..$.S.J.<..a...d..4.w...ML.P=W~f.A..
+0500: |.lh...........7..S......p..:....X.sj02[[......Z.)~...S^*JHdoF:
+0540: S..x7.;.2).B.&`Z.x...{.K#.K.XT.h*....G.MK.-6....0...0..z........
+0580: .AB...S.sj.....0...*.H........0?1$0"..U....Digital Signature Tru
+05c0: st Co.1.0...U....DST Root CA X30...160317164046Z..210317164046Z0
+0600: J1.0...U....US1.0...U....Let's Encrypt1#0!..U....Let's Encrypt A
+0640: uthority X30.."0...*.H.............0............Z..G.r]7..hc0..5
+0680: &.%...5.p./..KA....5.X..*.h....u....bq.y.`.......xgq.i........`<
+06c0: H.~.Mw.$.G.Z....7....{....J..A.6....m<.h.#*B...tg....Ra..?e....
+0700: ...V.....?.......k...}.+.e...6u.k.J...Ix/..O* %)..t..1..18....3.
+0740: C....0.y1.=-6....3j.91......d.3...).....}..........}0..y0...U..
+0780: .....0.......0...U...........0..+........s0q02..+.....0..&http:
+07c0: //isrg.trustid.ocsp.identrust.com0;..+.....0../http://apps.ident
+0800: rust.com/roots/dstrootcax3.p7c0...U.#..0.......{,q...K.u...`...0
+0840: T..U. .M0K0...g.....0?..+..........000...+........"http://cps.ro
+0880: ot-x1.letsencrypt.org0<..U...50301./.-.+http://crl.identrust.com
+08c0: /DSTROOTCAX3CRL.crl0...U.......Jjc.}....9..Ee.....0...*.H.......
+0900: .......3...cX8.....U.vV.pH.iG'{.$...Z.J.)7$tQ.bh...pg....N(Q....
+0940: .....Z......j.j.>W#....b.......?..H....eb..T..*. .........2...w.
+0980: .ye.+.(.:.R..R.._....3.wl.@.2...\A.tl[]._3.M..8./{,b....o%./...F
+09c0: =.~..z...zm..%......./X../,h&.K........CJ.DNosz(...n{L}.....D..
+0a00: ..4[.B
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.p..TqS....I.1(0.Cg;.7..[.|...'.X..J........E/J..,...Z._
+0040: ~....~.W.........H2.0m...m..P......=S....rZm.7..r Y.......l(g(.I
+0080: ...A.....9e..p.k..O.4......k.v&.....Z.lG.....~c.*Y.....wP]....d.
+00c0: X..V]...\S....%...{qqH...X.zp..@..^.....4...[{H-o@k........=..|.
+0100: ..$..{j;...O..r....M@'\..\R.(.&..U0.T.[.-O...7.....T....D.j..3.
+0140: .:..Fl......
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+=> Send SSL data, 5 bytes (0x5)
+0000: ....F
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA..Z..9...Z.w.G.........w@a....A..!.6%G...`I.\..k......O8..)
+0040: =X.aOg
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: ......G N.g.....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: .....}...x.1.8..
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+== Info: ALPN, server accepted to use http/1.1
+== Info: Server certificate:
+== Info:  subject: CN=httpbin.org
+== Info:  start date: Jan  8 23:16:03 2019 GMT
+== Info:  expire date: Apr  8 23:16:03 2019 GMT
+== Info:  subjectAltName: host "httpbin.org" matched cert's "httpbin.org"
+== Info:  issuer: C=US; O=Let's Encrypt; CN=Let's Encrypt Authority X3
+== Info:  SSL certificate verify ok.
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send header, 104 bytes (0x68)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: curl/7.63.0
+003f: Accept: */*
+004c: 'X-my-Custom-Header:123'
+0066: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 15 Feb 2019 10:13:34 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 252
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 252 bytes (0xfc)
+0000: {.  "args": {}, .  "headers": {.    "'X-My-Custom-Header": "123'
+0040: ", .    "Accept": "*/*", .    "Connection": "close", .    "Host"
+0080: : "httpbin.org", .    "User-Agent": "curl/7.63.0".  }, .  "origi
+00c0: n": "87.237.236.162", .  "url": "https://httpbin.org/get".}.
+== Info: Connection #0 to host httpbin.org left intact
